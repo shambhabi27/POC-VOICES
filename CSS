@@ -1,0 +1,144 @@
+/* STYLE SECTIONING TAGS */
+
+* {
+  padding:0px;
+  margin:0px;
+}
+body{
+  color: white; 
+  font-family: "Oxygen", sans-serif; 
+  text-align: center;
+  background-color: #652FEB; 
+}
+
+main {
+  background-color:#B39CFF; 
+  font-size: medium; 
+  letter-spacing: 2px; 
+  margin: 1%;
+  padding: 10px;
+  border: 5px solid #4C22A3;
+  
+}
+header {
+ background-color: #652FEB;
+ font-size: xx-large;
+ font-weight: bold;
+ letter-spacing: 3px
+}
+
+/* STYLE TEXT */
+h1 {
+  padding-top: 15px;
+  padding-bottom: 10px; 
+}
+
+h2 {
+  padding: 15px; 
+}
+
+p {
+  margin-left: 10%; 
+  margin-right: 10%; 
+  margin-bottom: 15px; 
+  font-size: large; 
+  background-color: white; 
+  color: #B39CFF;
+  padding: 10px; 
+  border: 2px solid #4C22A3;
+}
+/* STYLE IMAGES */
+
+.homepics {
+  max-width: 50%; 
+  max-height: 150px; 
+  border-radius: 50%; 
+  border: 3px solid #4C22A3;
+  margin: 15px; 
+}
+
+img{
+  max-width: 50%; 
+  max-height: 200px; 
+  border-radius: 10%; 
+  border: 3px solid white;
+  margin: 10px; 
+}
+
+.mainpics {
+  max-width: 70%; 
+  max-height: 250px; 
+  border-radius: 10%; 
+  border: 5px solid white;
+}
+
+.last {
+  padding-bottom: 15px; 
+}
+
+.funFact{
+  font-size: xx-large;
+}
+/* STYLE NAV BAR */
+
+li {
+  display: inline; 
+}
+
+ul {
+  list-style-type: none; 
+  background-color: #4C22A3; 
+  overflow: hidden; 
+  padding: 1em; 
+  font-size: large; 
+  letter-spacing: 2px;
+}
+
+li a {
+  color:white;  
+  text-decoration-line: none;
+  margin-right: 50px;
+}
+
+li a:hover {
+  color: #B39CFF; 
+} 
+
+
+.pageBlurb {
+  /*content styling*/
+  background-color:#B39CFF; 
+  color:white;
+  font-size: x-large; 
+
+  /*centering the text*/
+  text-align: center;
+  letter-spacing: 2px; 
+
+  /*box model styling*/
+  padding: 10px; 
+  border: 5px solid #4C22A3; 
+  margin: 2%; 
+}
+
+/* FLEXBOXES */
+
+.flexboxContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+} 
+
+.flexboxItem {
+  margin: 1%;
+  flex-basis: 100%; 
+  height: 200%; 
+  width: 200%; 
+  
+}
+
+@media screen and (max-width: 850px) {
+  .flexboxContainer{
+    flex-wrap: wrap; 
+  }
+}
